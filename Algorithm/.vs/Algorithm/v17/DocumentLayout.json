@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E15E27EF-D2F0-4433-A555-FE9F697917ED}|Class06th\\Class06th.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class06th\\06.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E15E27EF-D2F0-4433-A555-FE9F697917ED}|Class06th\\Class06th.vcxproj|solutionrelative:Class06th\\06.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D88E86D3-72C7-4C0C-92A4-85E938C00804}|Class08th\\Class08th.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class08th\\08.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D88E86D3-72C7-4C0C-92A4-85E938C00804}|Class08th\\Class08th.vcxproj|solutionrelative:Class08th\\08.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{843DBD16-7B0C-471A-A414-78E192BDE44D}|Class05th\\Class05th.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class05th\\05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{843DBD16-7B0C-471A-A414-78E192BDE44D}|Class05th\\Class05th.vcxproj|solutionrelative:Class05th\\05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D035AB-709C-4E20-A4DA-990265077549}|Class07th\\Class07th.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class07th\\07.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6D035AB-709C-4E20-A4DA-990265077549}|Class07th\\Class07th.vcxproj|solutionrelative:Class07th\\07.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E15E27EF-D2F0-4433-A555-FE9F697917ED}|Class06th\\Class06th.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class06th\\06.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E15E27EF-D2F0-4433-A555-FE9F697917ED}|Class06th\\Class06th.vcxproj|solutionrelative:Class06th\\06.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,12 +39,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "08.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class08th\\08.cpp",
+              "RelativeDocumentMoniker": "Class08th\\08.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class08th\\08.cpp",
+              "RelativeToolTip": "Class08th\\08.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T10:21:26.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "07.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class07th\\07.cpp",
+              "RelativeDocumentMoniker": "Class07th\\07.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class07th\\07.cpp",
+              "RelativeToolTip": "Class07th\\07.cpp",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwCwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T09:03:55.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "06.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class06th\\06.cpp",
               "RelativeDocumentMoniker": "Class06th\\06.cpp",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class06th\\06.cpp",
               "RelativeToolTip": "Class06th\\06.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-17T09:14:30.326Z",
               "EditorCaption": ""
@@ -49,7 +83,7 @@
               "RelativeDocumentMoniker": "Class05th\\05.cpp",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class05th\\05.cpp",
               "RelativeToolTip": "Class05th\\05.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-14T10:22:55.519Z",
               "EditorCaption": ""
