@@ -6,24 +6,25 @@ using namespace std;
 
 int main()
 {
-	int arr[SIZE] = { 1, 1, 3, 1, 2, 3, 4, 4, 2, 5 }; //1112233445
+	int list[SIZE] = { 1, 1, 3, 1, 2, 3, 4, 4, 2, 5 };
 
-	int a = 0;
+	int  count[5] = { 0, };
 
-
-	for (int i = 0; i <= SIZE; i++)
+	for (int i = 0; i < SIZE; i++)
 	{
-		if (arr[i] >= a)
+		count[list[i] - 1]++;
+	}
+
+	for (int i = 0; i < 5; i++)
+	{
+		if (list[i] != 0)
 		{
-			a = arr[i];
-			cout << a;
-		}
-		else if (arr[i] <= a)
-		{
-			cout << arr[i];
+			for (int j = 0; j < count[j]; j++)
+			{
+				cout << i + 1 << " ";
+			}
 		}
 	}
-	
 
 
 	return 0;
