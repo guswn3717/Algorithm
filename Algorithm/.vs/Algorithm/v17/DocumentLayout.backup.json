@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8201B413-7199-4A24-97DB-B2360D51FB76}|Class09th\\Class09th.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class09th\\09.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8201B413-7199-4A24-97DB-B2360D51FB76}|Class09th\\Class09th.vcxproj|solutionrelative:Class09th\\09.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D8A5DE19-CEBA-4795-8896-6994B94E802B}|Class10th\\Class10th.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class10th\\10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8A5DE19-CEBA-4795-8896-6994B94E802B}|Class10th\\Class10th.vcxproj|solutionrelative:Class10th\\10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "09.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class09th\\09.cpp",
-              "RelativeDocumentMoniker": "Class09th\\09.cpp",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class09th\\09.cpp",
-              "RelativeToolTip": "Class09th\\09.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
+              "Title": "10.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class10th\\10.cpp",
+              "RelativeDocumentMoniker": "Class10th\\10.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class10th\\10.cpp*",
+              "RelativeToolTip": "Class10th\\10.cpp*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-19T09:13:46.984Z",
+              "WhenOpened": "2025-03-20T09:15:35.281Z",
               "EditorCaption": ""
             }
           ]
