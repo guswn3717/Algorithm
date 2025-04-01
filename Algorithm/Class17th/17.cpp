@@ -38,6 +38,27 @@ public:
 				queue.push(i);
 			}
 		}
+
+		while (queue.empty() == false)
+		{
+			int x = queue.front();
+
+			queue.pop();
+
+			cout << x << " ";
+
+			for (int i = 0; i < adjacencyList[x].size(); i++)
+			{
+				int start = adjacencyList[x][i];
+
+				degree[start]--;
+
+				if (degree[start] == 0)
+				{
+					queue.push(start);
+				}
+			}
+		}
 	}
 };
 
@@ -75,6 +96,8 @@ int main()
 	graph.insert(5, 6);
 
 	graph.insert(6, 7);
+
+	graph.sort();
 	
 #pragma endregion
 
