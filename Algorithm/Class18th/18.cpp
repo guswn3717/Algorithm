@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 
 #define SIZE 6
 
@@ -6,61 +6,67 @@ int parent[SIZE];
 
 using namespace std;
 
-//Root Node¸¦ Ã£´Â ÇÔ¼ö
-
-//¹è¿­ÀÇ ÀÎµ¦½º¿Í °ªÀÌ °°´Ù¸é Root Node ¹ß°ß
-
-//ºÎ¸ğ ³ëµåÀÌ ¹øÈ£¸¦ Àü´ŞÇÏ¸é¼­, Root Node¸¦ Ã£À» ¶§±îÁö
-
-//Àç±Í È£ÃâÀ» ¹İº¹ÇÕ´Ï´Ù
-
+// Root Nodeë¥¼ ì°¾ëŠ” í•¨ìˆ˜
 int find(int x)
 {
-	if (x == parent[x])
-	{
-		return x;
-	}
-	else
-	{
-		return parent[x] = find(parent[x]);
-	}
+    // ë°°ì—´ì˜ ì¸ë±ìŠ¤ì™€ ê°’ì´ ê°™ë‹¤ë©´ Root Node ë°œê²¬
+    if (x == parent[x])
+    {
+        return x;
+    }
+    else
+    {
+        // ë¶€ëª¨ ë…¸ë“œì˜ ë²ˆí˜¸ë¥¼ ì „ë‹¬í•˜ë©´ì„œ, Root Nodeë¥¼ ì°¾ì„ ë•Œê¹Œì§€ 
+        // ì¬ê·€ í˜¸ì¶œì„ ë°˜ë³µí•©ë‹ˆë‹¤.
+        return parent[x] = find(parent[x]);
+    }
 }
 
 void Union(int x, int y)
 {
-	x = find(x);
-	y = find(y);
+    x = find(x);
+    y = find(y);
 
-	if (x == y) { return; }
+    if (x == y) { return; }
 
-	if (x < y)
-	{
-		parent[y] = x;
-	}
-	else
-	{
-		parent[x] = y;
-	}
+    if (x < y)
+    {
+        parent[y] = x;
+    }
+    else
+    {
+        parent[x] = y;
+    }
+}
+
+bool same(int x, int y)
+{
+    return find(x) == find(y);
 }
 
 int main()
 {
-#pragma region À¯´Ï¿Â ÆÄÀÎµå
-	//¿©·¯ ³ëµå°¡ Á¸ÀçÇÒ ¶§ ¾î¶² ³ëµå°¡ ´Ù¸¥ ³ëµå¿Í
-	//¿¬°áµÇ¾î ÀÖ´Â Áö È®ÀÎÇÏ´Â ¾Ë°í¸®Áò ÀÔ´Ï´Ù.
+#pragma region ìœ ë‹ˆì˜¨ íŒŒì¸ë“œ
+    // ì—¬ëŸ¬ ë…¸ë“œê°€ ì¡´ì¬í•  ë•Œ ì–´ë–¤ ë…¸ë“œê°€ ë‹¤ë¥¸ ë…¸ë“œì™€
+    // ì—°ê²°ë˜ì–´ ìˆëŠ” ì§€ í™•ì¸í•˜ëŠ” ì•Œê³ ë¦¬ì¦˜ì…ë‹ˆë‹¤.
 
-	//union : Æ¯Á¤ÇÑ µÎ °³ÀÇ ³ëµå¸¦ °°Àº ÁıÇÕÀ¸·Î ÇÕÄ¡´Â ¿¬»êÀÔ´Ï´Ù.
+    // Union : íŠ¹ì •í•œ ë‘ ê°œì˜ ë…¸ë“œë¥¼ ê°™ì€ ì§‘í•©ìœ¼ë¡œ í•©ì¹˜ëŠ” ì—°ì‚°ì…ë‹ˆë‹¤.
 
-	//find : Æ¯Á¤ÇÑ ³ëµå°¡ ¾î´À ÁıÇÕ¿¡ ÀÖ´ÂÁö È®ÀÎÇÏ´Â ¿¬»êÀÔ´Ï´Ù.
+    // Find : íŠ¹ì •í•œ ë…¸ë“œê°€ ì–´ëŠ ì§‘í•©ì— ìˆëŠ” ì§€ í™•ì¸í•˜ëŠ” ì—°ì‚°ì…ë‹ˆë‹¤. 
 
-	int list[SIZE];
+    for (int i = 0; i < SIZE; i++)
+    {
+        parent[i] = i;
+    }
 
-	for (int i = 0; i < SIZE; i++)
-	{
-		list[i] = i;
-	}
+    Union(0, 1);
+
+    Union(3, 4);
+    Union(4, 5);
+
+    cout << same(0, 3) << endl;
 
 #pragma endregion
 
-	return 0;
+    return 0;
 }
