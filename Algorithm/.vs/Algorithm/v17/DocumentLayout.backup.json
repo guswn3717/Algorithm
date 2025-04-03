@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{614F89A3-9D44-4EFF-B56F-85222EB9A7FD}|Class18th\\Class18th.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class18th\\18.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{614F89A3-9D44-4EFF-B56F-85222EB9A7FD}|Class18th\\Class18th.vcxproj|solutionrelative:Class18th\\18.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9630CF9D-EAD0-4002-BFD0-FA51C9E09EA5}|Class17th\\Class17th.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class17th\\17.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9630CF9D-EAD0-4002-BFD0-FA51C9E09EA5}|Class17th\\Class17th.vcxproj|solutionrelative:Class17th\\17.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78241642-FA4F-477D-AC41-A113074DFD73}|Class16th\\Class16th.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class16th\\16.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{78241642-FA4F-477D-AC41-A113074DFD73}|Class16th\\Class16th.vcxproj|solutionrelative:Class16th\\16.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3BD13DD1-8F76-4565-AD32-A79FC0601A0A}|Class19th\\Class19th.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class19th\\19.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3BD13DD1-8F76-4565-AD32-A79FC0601A0A}|Class19th\\Class19th.vcxproj|solutionrelative:Class19th\\19.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "18.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class18th\\18.cpp",
-              "RelativeDocumentMoniker": "Class18th\\18.cpp",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class18th\\18.cpp",
-              "RelativeToolTip": "Class18th\\18.cpp",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB0AAAABAAAAAAAAAA==",
+              "Title": "19.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class19th\\19.cpp",
+              "RelativeDocumentMoniker": "Class19th\\19.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class19th\\19.cpp",
+              "RelativeToolTip": "Class19th\\19.cpp",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-01T09:15:09.239Z",
+              "WhenOpened": "2025-04-03T09:06:03.677Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "17.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class17th\\17.cpp",
-              "RelativeDocumentMoniker": "Class17th\\17.cpp",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class17th\\17.cpp",
-              "RelativeToolTip": "Class17th\\17.cpp",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAQwGMAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-31T09:03:29.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "16.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class16th\\16.cpp",
-              "RelativeDocumentMoniker": "Class16th\\16.cpp",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class16th\\16.cpp",
-              "RelativeToolTip": "Class16th\\16.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAQwC8AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-28T09:18:27.405Z"
             }
           ]
         }

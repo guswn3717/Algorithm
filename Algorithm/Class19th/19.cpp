@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 #define SIZE 8
 
@@ -14,12 +15,22 @@ private:
         int vertexX;
         int vertexY;
         int weight;
+
     public:
         Edge(int vertexX, int vertexY, int weight)
         {
             this->vertexX = vertexX;
             this->vertexY = vertexY;
             this->weight = weight;
+        }
+
+        int vertexX() { return vertexX; }
+        int vertexY() { return vertexY; }
+        int Weight() { return weight; }
+
+        const bool& operator < (const Edge& edge)
+        {
+            return weight < edge.weight;
         }
     };
 
@@ -44,6 +55,23 @@ public:
         Edge edge(vertexX, vertexY, weight);
 
         nodeList.push_back(edge);
+    }
+    
+    void calculate()
+    {
+        sort(nodeList.begin(), nodeList.end());
+
+        for (int i = 0; i < nodeList.size(); i++)
+        {
+            if (same(nodeList[i].vertexX(), nodeList[i].vertexY()))
+            {
+                cost += nodeList[i].Weight();
+
+                Uniton(nodeList[i].vertexX(), nodeList[i].vertexY());
+            }
+        }
+
+        cout << "Cost : " << cost << endl;
     }
 };
 
@@ -74,7 +102,6 @@ int main()
     kruskal.insert(3, 6, 36);
 
 #pragma endregion
-
 
     return 0;
 }
