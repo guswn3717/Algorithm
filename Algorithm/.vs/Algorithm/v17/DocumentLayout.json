@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B54388E4-010F-4581-B99B-99722AFD41F1}|Class20th\\Class20th.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class20th\\20.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B54388E4-010F-4581-B99B-99722AFD41F1}|Class20th\\Class20th.vcxproj|solutionrelative:Class20th\\20.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3BD13DD1-8F76-4565-AD32-A79FC0601A0A}|Class19th\\Class19th.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class19th\\19.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3BD13DD1-8F76-4565-AD32-A79FC0601A0A}|Class19th\\Class19th.vcxproj|solutionrelative:Class19th\\19.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class20th\\20.cpp",
+              "RelativeDocumentMoniker": "Class20th\\20.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class20th\\20.cpp",
+              "RelativeToolTip": "Class20th\\20.cpp",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-04T09:07:54.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "19.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class19th\\19.cpp",
               "RelativeDocumentMoniker": "Class19th\\19.cpp",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Algorithm\\Algorithm\\Class19th\\19.cpp",
               "RelativeToolTip": "Class19th\\19.cpp",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAQwGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAQwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-03T09:06:03.677Z",
               "EditorCaption": ""
